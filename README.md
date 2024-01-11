@@ -15,7 +15,6 @@ cd git
 chmod x+ git.sh
 ```
 ### depois de execultar esse último comando, O script vai te guiar pra conseguir instalar sem nenhum erro
-#### Creditos
+##### Creditos
 https//github.com/Raposo67
-#### entrem, talvez vocês da área do hacking mobile iram gostar!, tem várias coisas legais la!
-instalação do git no terminal
+###### entrem, talvez vocês da área do hacking mobile iram gostar!, tem várias coisas legais la!
