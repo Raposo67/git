@@ -12,7 +12,7 @@ git clone https://github.com/Raposo67/git.git
 cd git
 ```
 ```bash
-chmod x+ git.sh
+chmod x+ git.sh && ./git.sh
 ```
 ### depois de execultar esse último comando, O script vai te guiar pra conseguir instalar sem nenhum erro
 ##### Creditos
