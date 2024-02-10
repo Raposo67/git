@@ -11,12 +11,12 @@ read -p "EMAIL: " email
 sleep 1
 echo "$nome\n$email"
 read -p "Esta Correto?[s] ou [n]: " resposta
-if [ resposta == s ];then
+if [ $resposta == s ];then
  clear
  git config --global user.name "$nome"
  git config --global user.email "$email"
 fi
-if [ resposta == S ];then
+if [ $resposta == S ];then
  clear
  git config --global user.name "$nome"
  git config --global user.email "$email"
@@ -58,10 +58,10 @@ echo "OK"
 sleep 1
 clear
 echo "ENTRE NESSE LINK DO GIT HUB"
-sleep 1                                        echo "https://github.com/settings/keys"
-echo "crie uma nova chave ssh e cole essa chav>
+echo "https://github.com/settings/keys"
+echo "crie uma nova chave ssh e cole essa chave"
+res=$(cd $HOME && cat .ssh/id_rsa.pub)
 echo ""
 echo "------------CHAVE------------"
-res=$(cd $HOME && cat .ssh/id_rsa.pub)
 echo $res
 echo "-----------------------------"
