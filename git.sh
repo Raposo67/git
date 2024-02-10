@@ -47,7 +47,8 @@ sleep 2
 clear
 echo "iniciando Servico SSH..."
 eval "$(ssh-agent -s)"
-if [ "$?" == 0 ]; then                          echo "sucess"
+if [ "$?" == 0 ]; then
+ echo "OK"
 else
  echo "ocorreu algum erro certifique-se de que>
 fi
